@@ -13,12 +13,12 @@ services:
     networks:
       - minha-rede
 
-adminer:
-  image: adminer:latest
-  ports:
-    - 8080:8080
-  networks:
-    - minha-rede
+  adminer:
+    image: adminer:latest
+    ports:
+      - 8080:8080
+    networks:
+      - minha-rede
 
 networks:
   minha-rede:
